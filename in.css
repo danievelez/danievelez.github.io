@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    background-color: rgba(241, 241, 248, 0.61);
+    text-transform: capitalize;
+}
+header {
+    margin: 4.1% 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+header .h2 {
+    color: #7a7cc4;
+    font-size: 30px;
+    margin: 0 0 0 55px;
+}
+nav a {
+    margin: 0 18px;
+    text-decoration: none;
+    color: rgba(29, 29, 41, 0.863);
+}
+nav a:hover {
+    color: #7a7cc4;
+}
+.boton-navegador a {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #7a7cc4;
+    padding: 11px 25px;
+    border-radius: 1rem;
+}
+.contenedor {
+    display: grid;
+    margin: -2% 12.5%;
+    grid-template-columns: auto auto;
+}
+.contenedor .text-1 {
+    width: 500px;
+    padding: 3% 0;
+}
+.contenedor .text-1 h2 {
+    font-size: 45px;
+    color: rgba(33, 33, 36, 0.911);
+}
+.contenedor .text-1 p {
+    margin: -5% 0 7% 0;
+    color: rgb(19, 19, 20);
+}
+.text-1 .botones a {
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 1rem;
+    margin-right: 4%;
+    background-color: #7a7cc4;
+    padding: 10px 30px;
+}
+.contenedor .img1 img {
+    width: 510px;
+    height: 480px;
+    margin-left: 40px;
+}
+/* intermedio */
+.himno{
+    width: 420px;
+    text-align: center;
+    margin: 150px auto;
+    color: #2d2f69;
+}
+.himno p{
+    border-radius: 2rem;
+    height: 200px !;
+}
+.himno span{
+    font-size: 20px;
+    color: #000000;
+    position: relative;
+    bottom: 10px;
+}
+/* dos */
+.dos{
+    margin-top: 85px;
+}
+.imgc img{
+    border: 9px solid rgb(32, 35, 43);
+    border-radius: 1rem;
+    margin-left: 100px;
+    width: 240px;
+}
+.tarjetas-cargos h4{
+    width: 570px;
+    color: #5e5f81;
+}
+.tarjetas-cargos h3{
+    color: rgb(32, 35, 43);
+}
+.inver{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 90px 190px 90px 0; 
+}
+.foo{
+    text-align: center;
+    height: 70px;
+    background-color:#7a7cc4 ;
+    margin-top: 7%;
+    padding-top: 10px;
+}
+
